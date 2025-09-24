@@ -1,0 +1,9 @@
+
+[server]
+enableStaticServing = true
+headless = true
+maxUploadSize = 1000
+
+[theme]
+base="light"
+primaryColor="#4B7BF5"

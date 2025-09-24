@@ -1,0 +1,20 @@
+
+page_setup:
+  orientation: portrait
+  margins_mm: { top: 20, right: 15, bottom: 20, left: 25 }
+
+header_footer:
+  header_text: "Confidential — New Layout"
+  footer_text: "© Your Company"
+  include_page_numbers: true
+
+style_map:
+  "Heading 1": "Title"
+  "Heading 2": "Heading 1"
+  "Heading 3": "Heading 2"
+
+find_replace:
+  - pattern: "\\bACME Corp\\b"
+    replace: "Your Company"
+  - pattern: "\\s{2,}"
+    replace: " "
